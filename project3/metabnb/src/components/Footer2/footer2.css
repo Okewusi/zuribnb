@@ -1,0 +1,39 @@
+.footCon{
+    height: 30vh;
+    background: #1D1D1E;
+    display: flex;
+    flex-direction: column;
+    color: #f1f3f9;
+    padding: 4rem 4rem 0 4rem;
+    justify-content: center;
+}
+.footCon .links{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    font-size: 1.5rem;
+}
+ul{
+    list-style: none;
+    
+    
+}
+li{
+    margin: .5rem 0;
+}
+a{
+    text-decoration: none;
+    color: #f1f3f9;
+    font-size: 0.8rem;
+    
+}
+.brandsocials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+.socials img{
+    padding-right: 2rem;
+}

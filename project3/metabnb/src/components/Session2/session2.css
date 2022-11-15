@@ -1,0 +1,19 @@
+.sesContainer{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.destContainer{
+    margin: 1rem 0;
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}

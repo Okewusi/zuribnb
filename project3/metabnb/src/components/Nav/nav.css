@@ -1,0 +1,63 @@
+:root{
+    --textBlack: #434343;
+    --wallet: #A02279;
+    --white:#FFFF;
+}
+.navContainer{
+    display: flex;
+    width: 100%;
+    padding: 0 4rem;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+}
+.mobilenav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.mobile{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 70%;
+    justify-content: space-around;
+    
+}
+ul li{
+    list-style: none;
+    padding-right:.7rem ;
+}
+a{
+    text-decoration: none;
+    color: var(--textBlack);
+    font-weight: 500;
+    font-weight: bold;
+}
+.wallet button{
+    color: var(--white);
+    background: var(--wallet);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+}
+.hamcontainer{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .hamcontainer{
+        flex-flow: column nowrap;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 3rem;
+        padding-top: 2rem;
+    }
+    
+}
