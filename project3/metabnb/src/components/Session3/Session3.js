@@ -1,7 +1,4 @@
 import React from 'react'
-import image1 from "../Assets/image7.jpg"
-import image2 from "../Assets/image8.jpg"
-import image3 from "../Assets/image9.jpg"
 import allimg from "../Assets/allimg.jpg"
 import "./session3.css"
 

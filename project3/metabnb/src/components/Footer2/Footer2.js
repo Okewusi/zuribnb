@@ -12,8 +12,8 @@ const Footer2 = () => {
         <div className='links'>
             <div className='brandsocials'>
                 <div className='bl'>
-                    <img src={logob} alt='logo'/>
-                    <img src={brand} alt='brand'/>
+                    <img src={logob} alt='logo' className='logo' />
+                    <img src={brand} alt='brand' className='brand'/>
                 </div>
                 <div className='socials'>
                     <img src={fb} alt='facebook'/>
