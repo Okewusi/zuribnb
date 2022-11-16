@@ -51,7 +51,7 @@ ul li{
     display: none;
 }
 
-@media (max-width: 767px){
+/* @media (max-width: 767px){
     .hamcontainer{
         flex-flow: column nowrap;
         position: fixed;
@@ -61,4 +61,45 @@ ul li{
         padding-top: 2rem;
     }
     
+} */
+@media (max-width: 768px){
+    .navContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 4rem;
+        margin-bottom: 1rem;
+    }
+    .mobilenav{
+        width: 100%;
+    }
+   
+}
+@media (max-width: 400px){
+    .navContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .mobilenav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .mobile a{
+        text-decoration: none;
+        color: var(--textBlack);
+        font-weight: 500;
+        font-size: .8rem;
+    }
+    .mobile{
+        display: flex;
+        width: 100%;
+
+    }
+   
+   
 }

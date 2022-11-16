@@ -24,9 +24,9 @@ const Nav = () => {
             <div className='wallet'>
                 <button onClick={()=>setShowModal(true)}>Connect wallet</button>
             </div>
-            <div className='hamcontainer'>
+            {/* <div className='hamcontainer'>
                 <Hamburger />
-            </div>
+            </div> */}
         </div>
         <Modal open={showmodal} setShowModal={setShowModal}/>
     </div>

@@ -47,3 +47,28 @@ li{
         width: 1.5rem;
     }
 }
+@media (max-width: 400px){
+    .footCon{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        height: 90vh;
+    }
+    .bl .logo{
+        width: 2rem;
+    }
+    .bl .brand{
+        width: 4rem;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .brandsocials{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 1.5rem;
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import allimg from "../Assets/allimg.jpg"
+import allimg from "../Assets/allimg.png"
 import "./session3.css"
 
 const Session3 = () => {

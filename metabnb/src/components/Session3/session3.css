@@ -33,7 +33,6 @@ button{
 }
 .imgContainer img{
     padding: 5rem 0 0 0;
-    mix-blend-mode:multiply;
 }
 
 
@@ -54,5 +53,34 @@ button{
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
+    }
+}
+@media (max-width: 400px){
+    .session3Con{
+        height: 140vh;
+    }
+    .innerCon{
+        display: flex;
+        padding: 0 1.5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .textCon{
+        display: flex;
+        margin-top: 2rem;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .imgContainer{
+       width: 20rem;
+       height: 20rem;
+    }
+    .imgContainer img{
+        padding: 5rem 0 0 0;
+        width: 20rem;
+        height: 20rem;
+        object-fit: contain;
     }
 }

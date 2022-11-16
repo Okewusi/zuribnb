@@ -37,3 +37,12 @@
         height: 1rem;
     }
 }
+@media (max-width: 400px) {
+    .footerContainer{
+        margin-top: 22rem;
+    }
+    .footerContainer img{
+        height: .8rem;
+        align-items: center;
+    }
+}
