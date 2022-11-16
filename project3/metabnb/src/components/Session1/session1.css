@@ -1,14 +1,15 @@
+
 .sessionContainer{
     display: flex;
     margin: 1rem 0;
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     justify-content: space-between;
     align-items: center;
     align-items: center;
     padding: 0 4rem;
 }
-.textContainer{
+.sessionContainer .textContainer{
     width: 55%;
     height: 100%;
     display: flex;
@@ -17,13 +18,14 @@
     align-items: flex-start;
 }
 .textContainer h2{
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--textBlack);
     
 }
 .textContainer p{
     font-size: 1.5rem;
     padding: 1.5rem 0;
+    margin-bottom: 2rem;
 }
 .textContainer strong{
     color: var(--wallet);
@@ -56,4 +58,29 @@ form button{
 .leftContainer{
     margin-top: 5rem;
     margin-right: .3rem;
+}
+
+
+
+@media (max-width: 768px){
+    .sessionContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .sessionContainer .textContainer{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 2rem 0;
+    }
+    .imageContainer{
+        display: flex;
+        width: 100%;
+        justify-content:center;
+        margin: 2rem 0;
+        height: 80%;
+    }
 }

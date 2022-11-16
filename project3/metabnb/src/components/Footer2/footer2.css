@@ -22,7 +22,7 @@ ul{
 li{
     margin: .5rem 0;
 }
-a{
+.links a{
     text-decoration: none;
     color: #f1f3f9;
     font-size: 0.8rem;
@@ -36,4 +36,14 @@ a{
 }
 .socials img{
     padding-right: 2rem;
+}
+
+
+@media (max-width: 768px){
+    .bl .logo{
+        width: 1rem;
+    }
+    .bl .brand{
+        width: 1.5rem;
+    }
 }

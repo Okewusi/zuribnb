@@ -1,20 +1,24 @@
 .frameContainer{
     display: flex;
     flex-direction: column;
-    height: 28rem;
-    width: 22rem;
+    height: 24rem;
+    width: 18rem;
     padding: 1rem;
     justify-content: space-between;
-    border: .1rem solid var(--textBlack);
+    border: .01rem solid var(--textBlack);
     border-radius: 1rem;
 }
 .imgCon{
     width: 4rem;
     height: 4rem;
 }
+.about p{
+    font-size: .7rem;
+    padding: .5rem 0;
+}
 .imgCon img{
-    width: 20rem;
-    height: 20rem;
+    width: 16rem;
+    height: 16rem;
     object-fit: contain;
 }
 .about{

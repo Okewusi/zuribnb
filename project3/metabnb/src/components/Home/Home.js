@@ -9,12 +9,11 @@ import Footer2 from '../Footer2/Footer2'
 const Home = () => {
   return (
     <div>
-        <Nav />
         <Session1 />
         <Footer1 />
         <Session2 />
         <Session3 />
-        <Footer2 />
+        
     </div>
   )
 }

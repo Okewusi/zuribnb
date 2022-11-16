@@ -7,6 +7,7 @@
     display: flex;
     width: 100%;
     padding: 0 4rem;
+    margin-bottom: 2rem;
 }
 
 .logoContainer{
@@ -32,11 +33,11 @@ ul li{
     list-style: none;
     padding-right:.7rem ;
 }
-a{
+.mobile a{
     text-decoration: none;
     color: var(--textBlack);
     font-weight: 500;
-    font-weight: bold;
+    font-size: 1.2rem;
 }
 .wallet button{
     color: var(--white);

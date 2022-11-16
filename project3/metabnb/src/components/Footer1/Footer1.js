@@ -10,7 +10,7 @@ import metamask from "../Assets/metamask.png"
 const Footer1 = () => {
   return (
     <div className='footerContainer'>
-        <div >
+        <div>
             <img src={ellipse} alt="ellipse" />
             <img src={MB} alt="MBToken"/>
         </div>
@@ -18,7 +18,7 @@ const Footer1 = () => {
             <img src={metalogo} alt="metalogo"/>
             <img src={metamask} alt="metamask"/>
         </div>
-        <div >
+        <div>
             <img src={open} alt="opensea logo" />
             <img src={opensea} alt="opensea"/>
         </div>
