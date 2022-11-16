@@ -66,6 +66,8 @@ form button{
     .sessionContainer{
         display: flex;
         flex-direction: column;
+        padding: 0 4rem;
+
     }
     .sessionContainer .textContainer{
         width: 100%;
@@ -82,5 +84,38 @@ form button{
         justify-content:center;
         margin: 2rem 0;
         height: 80%;
+    }
+}
+
+@media (max-width: 400px){
+    .sessionContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 0 1.2rem;
+    }
+    .sessionContainer .textContainer{
+        width: 100%;
+        height: 100%;
+        margin: 2rem 0;
+    }
+    .textContainer h2{
+        font-size: 2rem;
+    }
+    .textContainer p{
+        font-size: 1rem;
+        padding: 1.5rem 0;
+        margin-bottom: 1rem;
+    }
+    .imageContainer{
+        display: flex;
+        width: 100%;
+        justify-content:center;
+        margin: 2rem 0;
+        height: 80%;
+    }
+    form{
+        width: 100vw;
+        /* display: flex;
+        flex-direction: column; */
     }
 }
