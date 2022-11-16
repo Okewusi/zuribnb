@@ -8,3 +8,26 @@
     justify-content: space-between;
     width: 80%;
 }
+@media (max-width: 768px){
+    .placeNav ul li{
+        font-size: .8rem;
+    }
+    .placeNav img{
+        width: 7rem;
+    }
+}
+@media (max-width: 400px){
+    .placeNav{
+        flex-direction: column;
+    }
+    .placeNav ul{
+        width: 100vw;
+        
+    }
+    .placeNav ul li{
+        font-size: .5rem;
+    }
+    .placeNav img{
+        width: 7rem;
+    }
+}
