@@ -1,0 +1,30 @@
+.sesContainer{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+.sesContainer h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.destContainer{
+    margin: 1rem 0;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 768px){
+    .top{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .bottom{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+}

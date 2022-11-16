@@ -1,0 +1,66 @@
+:root{
+    --active:  #CFD8DC;
+}
+.modalContainer{
+    position: absolute;
+    top: 35%;
+    margin: 0 auto;
+    left: 30%;
+    /* margin-top: -50px;
+    margin-left: -50px; */
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: .1px solid var(--textBlack);
+    z-index: 2;
+    background: white;
+    border-radius: 1rem;
+    color: var(--textBlack);
+}
+.modalContainer .heading{
+    display: flex;
+    align-items: center;
+    border-bottom: .1px solid var(--textBlack);
+    justify-content: space-between;
+   
+}
+/* .heading img{
+    width: 1rem;
+    height: 1rem;
+} */
+.heading h3, .heading button{
+    background: white;
+    padding: 1rem 2rem;
+    color: var(--textBlack);
+}
+.heading button{
+    margin-right: 1rem;
+}
+.first img{
+    padding-right: 1rem;
+}
+.optionCon{
+    margin: 1rem;
+}
+.optionCon p{
+    padding-left: 1rem;
+}
+.option:active{
+    background-color: var(--active);
+}
+.optionCon .option{
+    display: flex;
+    justify-content: space-between;
+    border: .1rem solid var(--textBlack);
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.option .first{
+    display: flex;
+    align-items: center;
+    
+}

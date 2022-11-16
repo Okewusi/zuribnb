@@ -1,0 +1,35 @@
+.frameContainer{
+    display: flex;
+    flex-direction: column;
+    height: 24rem;
+    width: 18rem;
+    padding: 1rem;
+    justify-content: space-between;
+    border: .01rem solid var(--textBlack);
+    border-radius: 1rem;
+}
+.imgCon{
+    width: 4rem;
+    height: 4rem;
+}
+.about p{
+    font-size: .7rem;
+    padding: .5rem 0;
+}
+.imgCon img{
+    width: 16rem;
+    height: 16rem;
+    object-fit: contain;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.bold{
+    font-weight: bold;
+}
